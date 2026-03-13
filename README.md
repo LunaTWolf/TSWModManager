@@ -1,6 +1,6 @@
 # TSWModManager
 ## Setup
-- Create a Folder Called "Mods" under C:\Users\*\Documents\My Games\TrainSimWorld6
+- Create a Folder Called "Mods" under C:\Users\YourName\Documents\My Games\TrainSimWorld6
 - Clone Repository to Mods folder
 - run extractAll.bat to save your current in-game liveries to the Liveries folder
 - Install any Livery mods you want
