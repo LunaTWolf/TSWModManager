@@ -1,4 +1,5 @@
 # TSWModManager
+## Supported Games: TSW6
 ## Setup
 - Create a Folder Called "Mods" under C:\Users\YourName\Documents\My Games\TrainSimWorld6
 - Clone Repository to Mods folder
@@ -10,6 +11,8 @@
 - [x] Livery Extracting
 - [x] Livery Repacking
 - [x] Livery Backups
+- [ ] TSW5 Support
+- [ ] TSW4 Support
 - [ ] Formation Extracting
 - [ ] Formation Repacking
 - [ ] Formation Backups
