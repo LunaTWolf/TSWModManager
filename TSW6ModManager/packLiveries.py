@@ -21,7 +21,7 @@ os.makedirs(BACKUP_FOLDER, exist_ok=True)
 os.makedirs(SAVE_FOLDER, exist_ok=True)
 
 # ----------------------------
-# 1️⃣ Backup Original Save
+# Backup Original Save
 # ----------------------------
 
 if os.path.exists(ORIGINAL_FILE):
@@ -35,7 +35,7 @@ if os.path.exists(ORIGINAL_FILE):
     print(f"Backup created: {backup_path}")
 
 # ----------------------------
-# 2️⃣ Start New Save From Prefix
+# Start New Save From Prefix
 # ----------------------------
 
 if not os.path.exists(PREFIX_FILE):
@@ -45,7 +45,7 @@ with open(PREFIX_FILE, "rb") as f:
     new_save_data = f.read()
 
 # ----------------------------
-# 3️⃣ Append Valid .tsw6livery Files
+# Append Valid .tsw6livery Files
 # ----------------------------
 
 if os.path.exists(LIVERIES_FOLDER):
@@ -67,13 +67,13 @@ if os.path.exists(LIVERIES_FOLDER):
             print(f"Added: {filename}")
 
 # ----------------------------
-# 4️⃣ Add Suffix At End
+# Add Suffix At End
 # ----------------------------
 
 new_save_data += SUFFIX
 
 # ----------------------------
-# 5️⃣ Write Final Save
+# Write Final Save
 # ----------------------------
 
 with open(NEW_FILE, "wb") as f:
