@@ -10,7 +10,7 @@ os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 os.makedirs(DATA_FOLDER, exist_ok=True)
 
 # ----------------------------
-# 🔥 CLEAR OLD LIVERIES FIRST
+# Clear Old Liveries
 # ----------------------------
 
 for filename in os.listdir(OUTPUT_FOLDER):
